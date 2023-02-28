@@ -110,7 +110,7 @@ label #cancel{
 
 
 /*hero*/
-.content{
+.main1{
     height: calc(100vh - 60px);
     display: flex;
     flex-direction: column;
@@ -239,13 +239,16 @@ label #cancel{
         margin-top:2px;
     }
     .content h1{
-        font-size: 20px;
+        font-size: 14px;
     }
     .content h2{
-        font-size: 1.4rem;
+        font-size: 16px;
     }
     .content p{
-        font-size: 18px;
+        font-size: 13px;
+        text-align: center;
+        margin-left: 2rem;
+        margin-right: 2rem
     }
 }
 /*END HOME SECTION*/
@@ -1080,7 +1083,6 @@ label #cancel{
         width: 100%;
         text-align: left;
         margin-bottom: 1rem;
-        padding: 10rem 12rem;
     }
     .row2{
         text-align: left;
