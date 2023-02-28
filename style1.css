@@ -247,8 +247,8 @@ label #cancel{
     .content p{
         font-size: 13px;
         text-align: center;
-        margin-left: 2rem;
-        margin-right: 2rem
+        margin-left: 1rem;
+        margin-right: 1rem
     }
 }
 /*END HOME SECTION*/
