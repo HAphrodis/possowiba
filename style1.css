@@ -881,7 +881,7 @@ footer{
     color:#d9d9d9;
 }
 
-.container{
+.container2{
     display: flex;
     padding: 3rem;
 }
@@ -1039,13 +1039,13 @@ footer{
         padding-bottom: 30px;
     }
 
-    .container{
+    .container2{
         flex-wrap: wrap;
         flex-direction: column;
         padding:0.5rem;
     }
 
-    .container .section{
+    .container2 .section{
         margin:5px 0;
     }
 }
