@@ -11,13 +11,6 @@
     --text-color: #fff;
     --main-color: #29fd53;
 }
-body{
-    font-family: 'poppins',sans-serif;
-    font-weight: 400;
-    line-height: 1.5;
-    margin-right: 0px;
-    margin-left: .5rem;
-    width: 100%;
 }
 .home{
     position: relative;
