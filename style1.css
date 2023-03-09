@@ -872,220 +872,128 @@ label #cancel{
         margin: 10px 0px;
     }
 }
-
 /*FOOTER STARTS*/
-
-.footer{
+ body {
+    display: flex;
+    background: #333;
+    justify-content: flex-end;
+    align-items: flex-end;
+    min-height: 100vh;
+  }
+  
+  .footer {
     position: relative;
     width: 100%;
-    min-height: 280px;
-    padding: 0 5rem;
-}
-.container{
-    width: 100%;
-    margin: 2rem 0rem ;
+    background: #3586ff;
+    min-height: 100px;
+    padding: 20px 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border-radius: 8px;
-    background-color: var(--bg-color);
-    margin-bottom: 0;
-    margin-right: 0;
-    margin-top: 0;
-}
-.row{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 10px;
-}
-.col{
-    min-width: 250px;
-    color: #f7dfdf;
-    font-family: poppins;
-    padding: 2rem 3rem;
-    margin-right: 2rem;
-}
-.col .logo{
-    width: 30px;
-    height: 30px;
-    margin-bottom: 25px;
-    border-radius: 50%;
-    margin-top: 20px;
-}
-.col h1{
-    color: rgb(252, 58, 116);
-    margin-bottom: 16px;
+  }
+  
+  .social-icon,
+  .menu {
     position: relative;
-    cursor: pointer;
-}
-.col h1::after{
-    content: '';
-    height: 3px;
-    width: 0px;
-    background-color: rgb(5, 243, 5);
-    position: absolute;
-    bottom: 0;
-    left:0;
-    transition: .3s ease;
-    margin-top: 10px;
-}
-.col h1:hover::after{
-    width: 30px;
-}
-.col .social-media a i{
-    background:  rgb(252, 58, 116);;
-    color: rgb(19, 19, 245);
-    transition: .3s ease;
-    font-size: 1.5rem;
-    border-radius: 50px;
-    width: 100%;
-    height: 100%;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    text-align: center;
-}
-.col .social-media a i:hover{
-    background-color: #04fc42;
-    color: #333;
-}
-.col .links a{
-    display: block;
+    margin: 10px 0;
+    flex-wrap: wrap;
+  }
+  
+  .social-icon__item,
+  .menu__item {
+    list-style: none;
+  }
+  
+  .social-icon__link {
+    font-size: 2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+  }
+  .social-icon__link:hover {
+    transform: translateY(-10px);
+  }
+  
+  .menu__link {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
     text-decoration: none;
-    color: rgb(251, 255, 255);
-    margin-bottom: 5px;
-    margin-right: 5px;
-    position: relative;
-    transition: .3s ease;
-    width: 100%;
-}
-.col .links a::before{
-    content: '';
-    height: 16px;
-    width: 3px;
+    opacity: 0.75;
+    font-weight: 300;
+  }
+  
+  .menu__link:hover {
+    opacity: 1;
+  }
+  
+  .footer p {
+    color: #fff;
+    margin: 15px 0 10px 0;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  
+  .wave {
     position: absolute;
-    top: 5px;
-    left: -10px;
-    background-color: #ff014fff;
-    transition: .5s ease;
-    opacity: 0;
-}
-.col .links a:hover{
-     opacity: 1;
-     color: #ff014fff;
-}
-.col .contact-details{
-    display: block;
-    justify-content: space-between;
-    margin-left: 1rem;
-}
-.col .contact-details i{
-    margin-right: 15px;
-    margin-left: 15px;
-    color: rgb(2, 156, 2);
-}
-.row2{
-    display: flex;
-    text-align: center;
-    margin-top: 30px;
-}
-.row2 button{
-    padding: 5px 10px;
-    border: 0;
-    border-radius: 10px;
-    border-top-left-radius: 10;
-    border-bottom-left-radius: 10;
-    background-color: var(--bg-color);
-    color: var(--text-color);
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 5px;
-    text-align: center;
-    transition: .2s ease-in-out;
-}
-.row2 button:hover{
-    background: #04fc42;
-    color: #ff014fff;
-}
-.row2 button i{
-    margin-right: 10px;
-    color: aqua;
+    top: -100px;
+    left: 0;
     width: 100%;
-    height: 100vh;
-}
-
-.row2 p{
-    font-size: 18px;
-    margin-right: 10px;
-    color: var(--text-color);
-}
-.footer-bottom{
-    background: #c6dbfa;
-    width: 100vw;
-    padding: 10px 0;
-    margin: 0 0 0 0;
-    text-align: center;
-    border-radius: 6px;
-}
-.footer-bottom{
-    font-size: 16px;
-    word-spacing: 3.5px;
-    text-transform: capitalize;
-}
-.footer-bottom span{
-    text-transform: uppercase;
-    opacity: .5;
-    font-weight: 400;
-}
-/**********RESPONSIVE DESIGN********************************/
-@media(max-width:900px){
-    .row{
-        flex-direction: column;
+    height: 100px;
+    background: url("https://i.ibb.co/wQZVxxk/wave.png");
+    background-size: 1000px 100px;
+  }
+  
+  .wave#wave1 {
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: animateWaves 4s linear infinite;
+  }
+  
+  .wave#wave2 {
+    z-index: 999;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animate 4s linear infinite !important;
+  }
+  
+  .wave#wave3 {
+    z-index: 1000;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: animateWaves 3s linear infinite;
+  }
+  
+  .wave#wave4 {
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: animate 3s linear infinite;
+  }
+  
+  @keyframes animateWaves {
+    0% {
+      background-position-x: 1000px;
     }
-    .footer{
-    width: 100%;
-    min-height: 1000px;
+    100% {
+      background-positon-x: 0px;
     }
-    .container{
-    max-width: 100%;
-    display: block;
-    flex-direction: column;
+  }
+  
+  @keyframes animate {
+    0% {
+      background-position-x: -1000px;
     }
-
-    .col{
-        width: 100%;
-        text-align: left;
-        margin-bottom: 3rem;
-        padding: 8rem 10rem;
+    100% {
+      background-positon-x: 0px;
     }
-    .row2{
-        text-align: left;
-        display: block;
-    }
-}
-@media(max-width:768px){
-    .footer{
-    min-height: 800px;
-    }
-    .container{
-    display: flex;
-    flex-direction: column;
-    }
-    .row{
-        flex-direction: column;
-    }
-    .col{
-        width: 100%;
-        text-align: left;
-        margin-bottom: 20px;
-    }
-    .col{
-        width: 100%;
-        text-align: left;
-        margin-bottom: 1rem;
-    }
-    .row2{
-        text-align: left;
-        display: block;
-    }
-}
+  }
+/*FOOTER ENDS*/
