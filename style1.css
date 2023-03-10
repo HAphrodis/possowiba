@@ -416,14 +416,14 @@ label #cancel{
   }
   @media (min-width: 1200px) {
     .timeline > li {
-      min-height: 170px;
+      min-height: 260px;
     }
     .timeline > li .timeline-panel {
       padding: 0 20px 20px 100px;
     }
     .timeline > li .timeline-image {
-      width: 170px;
-      height: 170px;
+      width: 100px;
+      height: 100px;
       margin-left: -85px;
     }
     .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
@@ -435,7 +435,7 @@ label #cancel{
   }
   
   .page-section {
-    padding: 6rem 0;
+    padding: 2rem 0;
   }
   .page-section h2.section-heading, .page-section .section-heading.h2 {
     font-size: 2.5rem;
@@ -635,10 +635,10 @@ label #cancel{
         margin-top: 0px;
     }
     .swiper{
-        width: 50%;
+        width: 80%;
         float: none;
         display: block;
-        height: 40vh;
+        height: 50vh;
         margin-left: 0px;
         margin-bottom: 1px;
     }
