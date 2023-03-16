@@ -1,134 +1,129 @@
 <!DOCTYPE html>
-<html>
+<html land="en" >
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>POSSOWIBA</title>
+        <title>POSSO WINERY AND BAKERY</title>
         <link rel="stylesheet" type="text/css" href="style1.css">
+      
         <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
         <link rel="stylesheet"
              href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>c
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
         <link rel="javascript" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js">
     </head>
     <body>
 <!--=====================================Header=====================================================-->
 <section id="home" class="home">
-	   <nav class="navbar">
+<nav>
+  <div class="logo">
+      <img src="logo.png" alt="Logo Image">
+  </div>
+  <div class="hamburger">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+  </div>
+  <ul class="nav-links">
+      <li><a href="#home">Home</a>
+			<li><a href="#about">About us</a></li>
+      <li><a href="#Product">Our products</a></li>
+      <li><a href="#chopping-cart">Order Now</a></li>
+      <li><a href="#Contacts">Contact Us</a></li>
 
-            <!-- LOGO -->
-            
-            <div class="logo">
-                <img src="logo.png">
-              </div>
-            
-        <!-- NAVIGATION MENU -->
-            
-           <!-- NAVIGATION MENU -->
-           <ul class="nav-links">
-            
-            <!-- USING CHECKBOX HACK -->
-            
-        <input type="checkbox" id="checkbox_toggle" />
-            
-        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-            
-            <!-- NAVIGATION MENUS -->
-             <div class="menu">
-            <li><a href="/">Home</a></li>
-            <li><a href="#">About Us</a></li>
-        <li class="OUR PROCUCTS">
+      <div id="mcsub" class="subscribe-card">
+        <form action="/subscribe/post" novalidate>
+          <input type="email" class="EMAIL" placeholder="Enter Email address" autocomplete="off">
+          <button type="submit" class="subscribe-button">
+            Subscribe
+          </button>
+          <div role="alert" class="error-message">
+            *Please enter a valid email address!
+          </div>
+          <div id="response" class="response" style="display:none"></div>
+        </form>
+      </div>
+  </ul>
+</nav>
 
-            <a href="/">Our Products</a></li>
-                
-              
-            
-        <li><a href="/">Order Now</a></li>
-            
-        <li><a href="/">Contact Us</a></li>
-            
-        </div>
-            
-            </ul>
-            
-        </nav>
-
+    
 <!--=======================================main1==================================================-->
-         <main1>
-            <div class="content">
-                <h1>Hello</h1>
-                <h2>Welcome to possowiba</h2>
-                <p>welcome to possowiba. Come freely. Go safely; 
-             and leave something of the <br>happiness you bring.Since Life imposes things on us that you can’t control,</br>
-              we still have the choice of how you’re going to live through this.
-              <span><br>PLEASE COME AND CONTROL OUR LIFE<br></span></p>
+<main id="hero-image">
+  <section class="content2">
+      <h2><strong>hello</strong><br/>
+      Welcome to Possowiba.</h2>
+      <p>Come freely. Go safely; and leave something of the
+        happiness you bring.<br>Since Life imposes things on us that you can’t control,
+        we still have the choice of <br>how you’re going to live through this.
+        PLEASE COME AND CONTROL OUR LIFE</p>
+        <div class="page">
+   
+            <h1>subscribe to our newsletter &hellip;</h1>
+            <form action="#">
+              <input type="https://www.google.com/" placeholder="Email (e.g. someone@host.com)" />
+              <input type="submit" value="Subscribe" />
+            </form>
+            
+          </div>
+      </section>
+</main>
 
-             <div class="social-media">
-                    <a href="https://www.facebook.com/profile.php?id=100090448295426&mibextid=ZbWKwL">
-                        <i class="ri-facebook-circle-fill"></i></a>
-                    <a href="https://wa.me/message/GJVBUTATROBSA1"><i class="ri-whatsapp-line"></i></a>
-                    <a href="https://www.instagram.com/invites/contact/?i=10816ibq2ogo7&utm_content=qqghdiv"><i class="ri-instagram-line"></i></a>
-                </div>
-                <a href="https://wa.me/message/GJVBUTATROBSA1" class="btn">Order Now</a>
-                    
-        </main1>
-    </section>    
+</section>
 
-<!--====================================About US======================================================-->
-
+<!--============================ABOUT US================================================-->
 <section class="page-section" id="about">
-    <div class="container">
-        <div class="text-center">
-            <h2 class="section-heading text-uppercase">About Us</h2>
-            <h3 class="section-subheading text-muted">POSSOWIBA
-                <br>“Drinking Good Wine With Good Food In Good Company Is One Of Life’s 
-                Most Civilized Pleasures.”
-            </br>
-            </h3>
-        </div>
-        <ul class="timeline">
-            <li>
-                <div class="timeline-image"></div>
-                <div class="timeline-panel">
-                    <div class="timeline-heading">
-                        <h4>March-2023</h4>
-                        <h4 class="subheading">Our Humble Beginnings</h4>
-                    </div>
-                    <div class="timeline-body"><p class="text-muted">Our story begins in 2023 when our founders, 
-                        H. Aphrodis and R. Gregoire, launched Winery with a vision to transform
-                         International wines into local local wines.</p></div>
-                </div>
-            </li>
-            <li>
-                <div class="timeline-image"></div>
-                <div class="timeline-panel">
-                    <div class="timeline-heading">
-                        <h4 class="subheading">Provision of Full Service</h4>
-                    </div>
-                    <div class="timeline-body"><p class="text-muted" >
-                    Ever since, we will restless in our pursuit to revolutionise the way international wine works,
-                     by making it simple, enjoyable, affordable and stress free. Moreover, 
-                 we want to bring accessible cakes and bakes the to Gasarenda area
-                        <br>
+  <div class="container">
+      <div class="text-center">
+          <h2 class="section-heading text-uppercase">About Us</h2>
+          <h3 class="section-subheading text-muted">POSSOWIBA
+              <br>“Drinking Good Wine With Good Food In Good Company Is One Of Life’s 
+              Most Civilized Pleasures.”
+          </br>
+          </h3>
+      </div>
+      <ul class="timeline">
+          <li>
+              <div class="timeline-image"></div>
+              <div class="timeline-panel">
+                  <div class="timeline-heading">
+                      <h4>March-2023</h4>
+                      <h4 class="subheading">Our Humble Beginnings</h4>
+                  </div>
+                  <div class="timeline-body"><p class="text-muted">Our story begins in 2023 when our founders, 
+                      H. Aphrodis and R. Gregoire, launched Winery with a vision to transform
+                       International wines into local local wines.</p></div>
+              </div>
+          </li>
+          <li>
+              <div class="timeline-image"></div>
+              <div class="timeline-panel">
+                  <div class="timeline-heading">
+                      <h4 class="subheading">Provision of Full Service</h4>
+                  </div>
+                  <div class="timeline-body"><p class="text-muted" >
+                  Ever since, we will restless in our pursuit to revolutionise the way international wine works,
+                   by making it simple, enjoyable, affordable and stress free. Moreover, 
+               we want to bring accessible cakes and bakes the to Gasarenda area
+                      <br>
 For Us “Customer service shouldn't just be a department, it should be the entire Company</p></div>
-                </div>
-            </li>
-                
-            <li class="timeline-inverted">
-                <div class="timeline-image">
-               <a style="text-decoration:none;"href="https://wa.me/message/GJVBUTATROBSA1">     <h4>
-                         As long us you are at home
-                         <br>
-                         ORDER
-                         <br>
-                         NOW
-                        
-                 </h4></a>
-                </div>
-            </li>
-        </ul>
-    </div>
+              </div>
+          </li>
+              
+          <li class="timeline-inverted">
+              <div class="timeline-image">
+             <a style="text-decoration:none;"href="https://wa.me/message/GJVBUTATROBSA1">     <h4>
+                       As long us you are at home
+                       <br>
+                       ORDER
+                       <br>
+                       NOW
+                      
+               </h4></a>
+              </div>
+          </li>
+      </ul>
+  </div>
 </section>
 
 
@@ -136,23 +131,25 @@ For Us “Customer service shouldn't just be a department, it should be the enti
 <!--======================================Our Products===========================================-->
 <section1 id="Product" class="product">
 <div class="Container1">
-    
-        <!-- Slider main container -->
-<div class="swiper">
-    <!-- Additional required wrapper -->
-    <div class="swiper-wrapper">
-      <!-- Slides -->
-      <div class="swiper-slide"><img src="beetroo 1. jfif"> </div>
-      <div class="swiper-slide"><img src="beetroot 2.jfif" ></div>
-      <div class="swiper-slide"><img src="redwine.jfif"> </div>
-    </div>
-    <!-- If we need pagination -->
-    <div class="swiper-pagination"></div>
-  
-    <!-- If we need navigation buttons -->
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
-</div>
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="about img.avif"> </div>
+          <div class="swiper-slide"><img src="images/beetroo 1.jfif"> </div>
+          <div class="swiper-slide"><img src="images/pizza 21.jpg"> </div>
+          <div class="swiper-slide"><img src="images/samosa.jfif" ></div>
+          <div class="swiper-slide"><img src="images/chappati 2.jfif"> </div>
+          <div class="swiper-slide"><img src="images/crossed donuts.jpeg"> </div>
+          <div class="swiper-slide"><img src="images/large samosa.jpg"> </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+     </div>
 <div class="col-2">
     <h1>Our Products</h1>
         <h2><b>BEETROOT WINE</b></h2>
@@ -180,10 +177,10 @@ For Us “Customer service shouldn't just be a department, it should be the enti
     <!-- Additional required wrapper -->
     <div class="swiper-wrapper">
       <!-- Slides -->
-      <div class="swiper-slide"><img src="pizza 21.jpg"> </div>
-      <div class="swiper-slide"><img src="samosa.jfif" ></div>
-      <div class="swiper-slide"><img src="chappati 2.jfif"> </div>
-      <div class="swiper-slide"><img src="crossed donuts.jpeg"> </div>
+      <div class="swiper-slide"><img src="images/pizza 21.jpg"> </div>
+      <div class="swiper-slide"><img src="images/samosa.jfif" ></div>
+      <div class="swiper-slide"><img src="images/chappati 2.jfif"> </div>
+      <div class="swiper-slide"><img src="images/crossed donuts.jpeg"> </div>
     </div>
     <!-- If we need pagination -->
     <div class="swiper-pagination"></div>
@@ -209,7 +206,7 @@ For Us “Customer service shouldn't just be a department, it should be the enti
              <option>CAKE/GATEAU</option>
          </select>
          <input type="number" value="1">
-         <a href=" https://wa.me/message/GJVBUTATROBSA1" class="btn">ORDER NOW</a>
+         <a href="#chopping-cart" class="btn">ORDER NOW</a>
          <h5>products details<i class="ri-indent-increase"></i></h5>
          <p>If you’re looking for a creative cake, breads, donuts, samosa, or and other pasta or bakes to celebrate a birthday, Shaheen Sweet Addiction is the place to go.
              as well as to enjoy every day life.
@@ -218,6 +215,75 @@ For Us “Customer service shouldn't just be a department, it should be the enti
 
 </div>
 </section1>
+
+<!--==============================OREDR NOW=============================================-->
+
+
+
+<section id="chopping-cart" class="chopping-cart" >
+  <div class="cart-modal">
+  <h1>Ordering cart</h1>
+  <p>click 'checkout' to check your products in the cart</p>
+  <p>Click 'Empty Cart' button to remove product from the cart.</p>
+  <p><b>Remember $0.1 Correspond to 100 Frw</b></p>
+  <div id="alerts"></div>
+   <div class="productcont">
+       <div class="cart-item">
+           <h3 class="productname">Sambusa of <br> Irish potatoes, peas,<br> and vegetables
+          </h3>
+           <p class="price">$0.1</p>
+           <button class="addtocart">Add To Cart</button>
+       </div>
+       <div class="cart-item">
+           <h3 class="productname">CHAPPATI</h3>
+           <p class="price">$0.1</p>
+           <button class="addtocart">Add To Cart</button>
+       </div>
+       <div class="cart-item">
+           <h3 class="productname">Donuts</h3>
+           <p class="price">$0.2</p>
+           <button class="addtocart">Add To Cart</button>
+       </div>
+       <div class="cart-item">
+        <h3 class="productname">Sambusa of meat</h3>
+        <p class="price">$0.2</p>
+        <button class="addtocart">Add To Cart</button>
+    </div>
+       </div>
+       <div class="cart-container">
+         <h2>Cart</h2>
+         <table>
+           <thead>
+             <tr>
+             <th><strong>product</strong></th>
+             <th><strong>Price</strong></th>
+           </tr>
+           </thead>
+           <tbody id="carttable">
+           </tbody>
+         </table>
+         <hr>
+         <table id="carttotals">
+           <tr>
+             <td><strong>Items</strong></td>
+             <td><strong>Total</strong></td>
+           </tr>
+           <tr>
+             <td>x <span id="itemsquantity">0</span></td>
+            
+             <td>$<span id="total">0</span></td>
+           </tr></table>
+
+           
+         <div class="cart-buttons">  
+           <button id="emptycart">Empty Cart</button>
+           <button id="checkout">Checkout</button>
+         </div>
+       </div>
+       </div>
+      </section>
+
+      
 <!--===========================CONTACT US=================================================-->
     
 <section id="Contact" class="contact">
@@ -279,6 +345,8 @@ For Us “Customer service shouldn't just be a department, it should be the enti
     </div>
 </section>    
 
+
+
 <!--===============================FOOTER=================================================-->
 <section></section>
 <footer class="footer-distributed">
@@ -294,7 +362,7 @@ For Us “Customer service shouldn't just be a department, it should be the enti
 				
 					<a href="#Product">Our products</a>
 				
-					<a href="https://wa.me/message/GJVBUTATROBSA1">Order Now</a>
+					<a href="#chopping-cart">Order Now</a>
 					
 					
 					<a href="#Contacts">Contact Us</a>
@@ -349,6 +417,9 @@ For Us “Customer service shouldn't just be a department, it should be the enti
 
 
 <!--js link--->
+<script src="index.js"></script>
+<script src="home.js"></script>
+<script src="subscribe.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
         <script>
             const swiper = new Swiper('.swiper', {
